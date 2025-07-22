@@ -7,7 +7,7 @@ st.title("Détection de Fraudes Bancaires")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/creditcard.csv")
+    df = pd.read_csv("data/creditcardfraud.csv")
     return df
 
 df = load_data()
